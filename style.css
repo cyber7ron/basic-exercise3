@@ -1,0 +1,115 @@
+/*banner css start*/
+
+body {
+    margin: 20px;
+}
+h1 {
+    font: italic;
+    color: red;
+}
+.banner {
+    display: flex;
+    background: linear-gradient(90deg, rgba(144,17,11,1) 0%, rgba(237,68,7,1) 100%);
+    justify-content: space-between;
+}
+
+.banner_links {
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+    padding-top: 15pt;
+    
+}
+
+.contact {
+    align-self: flex-end;
+}
+
+/*banner css ends*/
+
+
+/* menubar css start*/
+
+.navigation {
+    display: flex;
+    background: linear-gradient(90deg, rgba(237,68,7,1) 0%, rgba(144,17,11,1) 74%);
+    padding: 10px;
+
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-size: 20 pt;
+    padding: 8px;
+}
+
+.links:hover {
+    color: green;
+}
+
+/*menubar css end*/
+
+/*image gallary and quick menu css*/
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.inner_container {
+    display: grid;
+    grid-template-columns: auto
+    justify-content: center;
+
+}
+
+.imggrid {
+    align-self: stretch;
+    height: 177px;
+    width: 284px;
+    border: 5px solid  #e0e0eb;
+    border-radius: 5px;
+}
+
+/*
+ul {
+    list-style-type: none;
+    
+}
+
+li>a {
+    background-color: red;
+    color: white;
+    font-size: 20pt;
+    text-decoration: none;
+}
+*/
+
+.list_container {
+    display: grid;
+    padding: 10px;
+}
+
+.menu {
+    text-decoration: none;
+    background-color: #7a0a04;
+    color: white;
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+h1+p {
+    color: gray;
+}
+
+footer {
+    background-color: #7a0a04;
+    padding: 3px;
+}
+
+footer>p {
+    color: white;
+    padding-left: 100px;
+}
